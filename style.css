@@ -146,7 +146,7 @@ ul li a:hover{
 .form{
     width: 250px;
     height: 550px;
-    background: linear-gradient(to top, rgba(149, 205, 200, 0.488)50%, rgba(149, 205, 200, 0.488));
+    background: linear-gradient(to top, rgba(57, 35, 57, 0.488)50%, rgba(149, 205, 200, 0.488));
     position: absolute;
     top: 90px;
     left: 1030px;
@@ -159,27 +159,29 @@ ul li a:hover{
     font-family: sans-serif;
     font-size: x-large;
     text-align: center;
-    color: #4dab9cc0;
+    color: rgb(196, 255, 245);
     background-color: rgb(103, 102, 106);
     border-radius: 10px;
     margin-bottom: 2px;
     padding-left: 15px;
 }
 .form p{
+    color: rgb(196, 255, 245);
+    text-align: center;
    padding-bottom: -15px; 
+
 }
 
 .form input{
     width: 240px;
     height: 30px;
     background: transparent;
-    border-bottom: 1px solid rgb(114, 16, 49);
+    border-bottom: 1px solid rgb(230, 170, 231);
     border-top: none;
     border-left: none;
-    color: black;
+    color: bisque;
     font-size: 15px;
     font-family: sans-serif;
-    font-size: 15px;
     letter-spacing: 1px;
     padding-top: 5px;
     padding-bottom: 5px;
@@ -200,7 +202,7 @@ ul li a:hover{
 .form input[type="submit"]:hover{
  cursor: pointer;
  background: aqua;
- color: black;
+ color: beige;
  font-family: bold;
 }
 
@@ -239,8 +241,10 @@ ul li a:hover{
 .form link{
     font-family: Arial;
     font-size: 15px;
+    text-decoration: none;
     padding-top: 10px;
     padding-bottom: 15px;
+    color:beige;
     text-align: center;
     text-decoration: none;
     
@@ -248,6 +252,7 @@ ul li a:hover{
 .form link a{
     text-align: center;
     text-decoration: none;
+    color:beige;
     color: bisque(236, 203, 127);
 }    
 .liw{
