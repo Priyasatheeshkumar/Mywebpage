@@ -82,7 +82,7 @@ ul li a:hover{
     height: 40px;
     background-color: #1a323ac0;
     border: 2px solid #111412c0;
-    margin-top: 13px;
+    margin-top: 25px;
     color: white;
     font-size: 15px;
     border-top-right-radius: 5px;
@@ -145,25 +145,30 @@ ul li a:hover{
 }
 .form{
     width: 250px;
-    height: 500px;
-    background: linear-gradient(to top, rgba(245, 116, 116, 0.5)50%, rgba(220, 133, 133, 0.5)50% );
+    height: 550px;
+    background: linear-gradient(to top, rgba(149, 205, 200, 0.488)50%, rgba(149, 205, 200, 0.488));
     position: absolute;
-    top: 110px;
+    top: 90px;
     left: 1030px;
     border-radius: 10px;
-    padding: 25px;
+    padding: 40px 25px;
 }
 .form h2{
     width: 220px;
-    font-family: sans-serif;
     text-align: center;
-    
+    font-family: sans-serif;
+    font-size: x-large;
+    text-align: center;
     color: #4dab9cc0;
     background-color: rgb(103, 102, 106);
     border-radius: 10px;
-    margin: 2px;
-    padding: 8px;
+    margin-bottom: 2px;
+    padding-left: 15px;
 }
+.form p{
+   padding-bottom: -15px; 
+}
+
 .form input{
     width: 240px;
     height: 30px;
@@ -171,13 +176,34 @@ ul li a:hover{
     border-bottom: 1px solid rgb(114, 16, 49);
     border-top: none;
     border-left: none;
-    color: rgb(181, 38, 98);
+    color: black;
+    font-size: 15px;
+    font-family: sans-serif;
     font-size: 15px;
     letter-spacing: 1px;
-    margin-top: 30px;
-    font-family: sans-serif;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    margin-top: 5px;
+    margin-bottom: 5px;
     
 }
+.form input[type="submit"]{
+    width: 200px;
+    margin-left: 30px;
+    border: none;
+    height: 40px;
+    color: rgb(118, 127, 129);
+    background: beige;
+    font-weight: bold;
+    border-radius: 15px;
+}
+.form input[type="submit"]:hover{
+ cursor: pointer;
+ background: aqua;
+ color: black;
+ font-family: bold;
+}
+
 .form input:focus{
     outline: none;
 }
@@ -226,6 +252,8 @@ ul li a:hover{
 }    
 .liw{
     padding-top: 15px;
+    margin-top: auto;
+    margin-bottom: auto;
     padding-bottom: 10px;
     text-align: center;
 }

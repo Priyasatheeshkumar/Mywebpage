@@ -3,6 +3,7 @@
 <head>
         <title>Webpage Design</title>
         <link rel="stylesheet" href="style.css">
+        <script src="valid.js"></script>
 </head>
 <body>
     <div class ="main">
@@ -28,23 +29,17 @@
             <h1>The<span> Dance </span>Unit</h1>
             <p class="par">We welcomes all the age groups from 5 years and above, Teens and adults to<br> an Indian Cinematic Freestyle Dance. </p>
             <button class="cn"><a href="#">JOIN US</a></button>
-            <!--<div class="form">
-                <h2>Login</h2>
-                <input type="email" name="email" placeholder="Enter Email Here">
-                <input type="password" name="password" placeholder="Enter Your Password">
-                <button class="btnn" ><a href="#">Login</a></button>
-
-                <p class="link">Don't have an account<br>
-                <a href="#">Sign up Here</a></p>
-                <p class="liw"Log in with></p>
-                <div class="icon">
-                    <a href="#" ><ion-icon> name ="logofacebook"</ion-icon> </a>
-                </div>-->
-                <div class="form">
+                
+            <div class="form">
                     <h2>Sign In</h2>
-                    <input type="email" name="email" placeholder="Enter Email Here">
-                    <input type="password" name="" placeholder="Enter Password Here">
-                    <button class="btnn"><a href="#">Login</a></button>
+                    <p>User Name :</p>
+                    <input type="email" name="" placeholder=" ">
+                    <p>Password :</p>
+                    <input type="password" name="" placeholder=" " id="pass">
+                    <!--<button class="btnn"><a href="#">Login</a></button>-->
+                    <input type="checkbox" onclick="myfunction()">
+                    <input type="submit" name="" value="LOGIN" onclick="validate()">
+                    <div><p id="length"></p></div>
 
                     <p class="link">Don't have an account<br>
                     <a href="#">Sign up</a> <a> here</a></p>
@@ -59,6 +54,8 @@
                     </div>
     
             </div>
+
+
             </div>
             </div>
         </div>
